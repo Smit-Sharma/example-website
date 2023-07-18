@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% load static %}
+
+Result : {{result}}<br><br>
+
+<a href="{% static 'img/wall.png' %}">Click On Me</a><br><br>
+
+<img src="{% static 'img/wall.png' %}" alt="My image">
+
+
+
+
+{% endblock %}
